@@ -19,6 +19,6 @@ public class Dynamique {
         IDao dao=(IDao) cdao.getConstructor().newInstance();
         Method method=cmetier.getMethod("setDao",IDao.class);
         method.invoke(metier,dao);
-        System.out.println(metier.calcule());
+        System.out.println("dynamique "+metier.calcule());
     }
 }
