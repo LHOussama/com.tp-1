@@ -2,18 +2,14 @@
 <body>
     <h1 >Compte Rendu</h1>
     <ol id="principale">
-        <li> Créer l'interface IDao avec une méthode getDate
+        <li> Créer l'interface IDao avec une méthode getDate</li>
             <img src="src/main/resources/Images/question1.png">
-        </li>
-        <li> Créer une implémentation de cette interface 
+        <li> Créer une implémentation de cette interface </li>
             <img src="src/main/resources/Images/question2.png">
-        </li>
-        <li> Créer l'interface IMetier avec une méthode calcul
+        <li> Créer l'interface IMetier avec une méthode calcul</li>
             <img src="src/main/resources/Images/question3.png">
-        </li>
-        <li> Créer une implémentation de cette interface en utilisant le couplage faible
+        <li> Créer une implémentation de cette interface en utilisant le couplage faible </li>
             <img src="src/main/resources/Images/question4.png">
-        </li>
         <li >Faire l'injection des dépendances
             <ol id="secondaire">
                 <li class="question5"> Par instanciation statique</li>
@@ -56,22 +52,25 @@
     }
     li{ color: blue;
         font-weight: 600;
+        padding-bottom: 10px;
     }
     p{
     font-family: Arial;
     font-weight: 500;
     }
     img{
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     }
     #secondaire{
         list-style-type: lower-alpha;
     }
     .question5{
         color: cornflowerblue;
+        padding-bottom: 10px;
     }
     .q5{
+        padding-bottom: 10px;
         color: blueviolet;
         font-size: 0.9em;
         font-weight: 550;
