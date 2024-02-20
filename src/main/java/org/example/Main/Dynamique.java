@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 public class Dynamique {
-    public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+    public static void main(String[] args) throws Exception {
         Scanner scanner=new Scanner(new File("configue.txt"));
         String class_metier=scanner.nextLine();
         System.out.println(class_metier);

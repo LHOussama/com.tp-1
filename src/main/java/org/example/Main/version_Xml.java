@@ -7,6 +7,5 @@ public class version_Xml {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("configue.xml");
         IMetier metier=(IMetier) applicationContext.getBean("metier");
         System.out.println(metier.calcule());
-
     }
 }
